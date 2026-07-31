@@ -1,0 +1,21 @@
+{
+  "repo": "much-better-adventures",
+  "feeds": [
+    {
+      "source": "https://www.muchbetteradventures.com/about/",
+      "feed_url": "https://www.muchbetteradventures.com/about/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://www.muchbetteradventures.com/magazine/",
+      "feed_url": "https://www.muchbetteradventures.com/magazine/rss/",
+      "title": "",
+      "saved": 2,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 2,
+  "fetched": "2026-07-25T15:00:33Z"
+}

@@ -1,8 +1,11 @@
 aid: much-better-adventures
 name: Much Better Adventures
-description: Much Better Adventures is a company surfaced as a portfolio company of seedcamp and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Much Better Adventures is a B Corp certified adventure travel company that runs 250+
+  solo-friendly, expert-led outdoor group trips across the world's trails, rivers, coasts and mountains,
+  matching travellers with certified local guides and hosts. It is a consumer-facing booking platform
+  with financial protection via ABTOT/ABTA/ATOL and contributes 5% of every booking to its foundation
+  for conservation. Surfaced as a Seedcamp portfolio company and added to the API Evangelist network;
+  an enrichment pass found no public API, developer portal, or machine-readable API surface.
 url: https://raw.githubusercontent.com/api-evangelist/much-better-adventures/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,17 +13,56 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Travel
+- Adventure Travel
+- Tourism
+- Booking
+- Outdoor
+- B Corp
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+image: https://images.ctfassets.net/m5us57n7qfgl/58xCdyyROvutgw2nRXzXaQ/f76b6a219f89176458956543c28883cd/much-better-adventures-logo-extra-large.png?w=1280&h=720&q=80&fit=fill
 common:
 - type: Website
-  url: http://muchbetteradventures.com
+  url: https://www.muchbetteradventures.com
+- type: About
+  url: https://www.muchbetteradventures.com/about/
+- type: Blog
+  url: https://www.muchbetteradventures.com/magazine/
+- type: BlogRSS
+  url: https://www.muchbetteradventures.com/magazine/rss/
+- type: Support
+  url: https://help.muchbetteradventures.com/
+- type: TermsOfService
+  url: https://help.muchbetteradventures.com/terms
+- type: PrivacyPolicy
+  url: https://help.muchbetteradventures.com/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/muchbetteradventures
+- type: DomainSecurity
+  url: security/much-better-adventures-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
